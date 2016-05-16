@@ -1,38 +1,9 @@
-#ignore target under current directory and all subdirectories:
-target/
-*/target/
-test-output/
-*/test-output/
+_site
+/node_modules
+/bower_components
 
-#ignore settings & gitignore file
-.settings/
-*/.settings/
-.springBeans
-*/.springBeans
-
-#ignore svn files
-.svn
-*/.svn
-
-.project
-
-.metadata
-
-*/.project
-
-.classpath
-*/.classpath
-
-.data/
-*/.data/
-*~
-
-.idea
+# Intellij
+.idea/
 *.iml
-
-#logs
-*/*/logs/
-
-#ignore mac temp file
-.DS_Store
-*/*/.DS_Store
+*.iws
+Gemfile.lock
